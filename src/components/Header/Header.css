@@ -1,0 +1,23 @@
+.header {
+    padding: 15px 0;
+    border-bottom: 1px solid hsl(var(--border) / 0.4);
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    transition-property: color;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__logo:hover {
+    color: hsl(var(--foreground) / 0.7);
+}
